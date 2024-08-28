@@ -64,7 +64,7 @@ async function sendMail(req, res) {
         }
 
         res.set({
-            "Access-Control-Allow-Origin": origin, // ==> new header
+            "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Credentials": true
         });
         res.send(JSON.stringify(responseMsg))
