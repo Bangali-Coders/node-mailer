@@ -33,7 +33,7 @@ async function sendMail(req, res) {
         const mailBody = emailTemplate(name, year, roll, food, imageBase64);
 
         const info = await transporter.sendMail({
-            from: `Teachers Day CSE Emailer ${NoReplyMail}`, // sender address
+            from: `Teachers Day CSE ${NoReplyMail}`, // sender address
             to: email, // list of receivers
             subject: emailSubject, // Subject line
             html: mailBody, // html body
@@ -62,6 +62,11 @@ async function sendMail(req, res) {
             message: 'Mail not sent',
             error: e
         }
+
+        res.set({
+            "Access-Control-Allow-Origin": origin, // ==> new header
+            "Access-Control-Allow-Credentials": true
+        });
         res.send(JSON.stringify(responseMsg))
     }
 }

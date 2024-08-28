@@ -10,8 +10,9 @@ const app = express()
 const port = 4000 || process.env.PORT
 
 
-// enable cors
+// enable cors to allow all origins to access the api even in development
 app.use(cors())
+
 
 // enable body parser
 app.use(express.json())
