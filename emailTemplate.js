@@ -274,7 +274,7 @@ function emailTemplate(name, year, roll, food, imageUrl) {
                                     <span
                                       class="tinyMce-placeholder"
                                       style="word-break: break-word"
-                                      >Pathikrit 2024</span
+                                      >Tumi Jaago</span
                                     >
                                   </h3>
                                 </td>
@@ -397,8 +397,8 @@ function emailTemplate(name, year, roll, food, imageUrl) {
                                     <p style="margin: 0">
                                       This is your digital coupon for collecting
                                       food packet in
-                                      <em><strong>Pathikrit '24</strong></em> -
-                                      Teachers Day celebration of CSE
+                                      <em><strong>Tumi Jaago</strong></em> -
+                                      Pre Puja Celebration of CSE
                                       department. Please show the QR code
                                       attached in the email when collecting the
                                       food packet.
@@ -851,11 +851,6 @@ function emailTemplate(name, year, roll, food, imageUrl) {
                                       mso-line-height-alt: 15.6px;
                                     "
                                   >
-                                    <p style="margin: 0">
-                                      This mail is sent to you because you have
-                                      subscribed to the Teachers Day celebration
-                                      program of CSE department of FIEM
-                                    </p>
                                     <p style="margin: 10px">
                                       This is an automated email, don't reply to this mail.
                                     </p>
