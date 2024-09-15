@@ -765,10 +765,7 @@ function emailTemplate(name, year, roll, food, imageUrl) {
                                   >
                                     <p style="margin: 0; margin-bottom: 7px">
                                       For any issue related to food coupon
-                                      contact&nbsp;
-                                    </p>
-                                    <p style="margin: 0">
-                                      Saptarshi Chakraborty - 7318702779
+                                      contact your class CR&nbsp;
                                     </p>
                                   </div>
                                 </td>
