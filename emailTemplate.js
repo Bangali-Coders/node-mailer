@@ -768,9 +768,6 @@ function emailTemplate(name, year, roll, food, imageUrl) {
                                       contact&nbsp;
                                     </p>
                                     <p style="margin: 0">
-                                      Shamba Saha - 9748102685
-                                    </p>
-                                    <p style="margin: 0">
                                       Saptarshi Chakraborty - 7318702779
                                     </p>
                                   </div>

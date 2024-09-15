@@ -28,12 +28,12 @@ async function sendMail(req, res) {
         const imageBase64 = req.body.image;
         console.log({ name, email, year, roll, food })
 
-        const emailSubject = 'Food Coupon for Teachers Day (CSE dept.) - ' + name;
+        const emailSubject = 'Food Coupon for Tumi Jaago (CSE dept.) - ' + name;
 
         const mailBody = emailTemplate(name, year, roll, food, imageBase64);
 
         const info = await transporter.sendMail({
-            from: `Teachers Day CSE ${NoReplyMail}`, // sender address
+            from: `Tumi Jaago CSE Organizing Team ${NoReplyMail}`, // sender address
             to: email, // list of receivers
             subject: emailSubject, // Subject line
             html: mailBody, // html body
